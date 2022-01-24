@@ -75,3 +75,26 @@
     background-color: white;
     color: #4a1515;
     }
+    .hobbiestitle{
+        font-family: 'Exo 2', sans-serif;
+        font-size: 50px;
+        margin: 20px auto ;
+        text-align: center;
+    }
+    .hobbiespara{
+        margin-left: 60px;
+        margin-right: 60px;
+        font-family: 'Roboto Mono', monospace;
+        margin-bottom: 20px;
+    }
+    .hobbiespara2{
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-bottom: 20px;
+
+    }
+    .hobbiespara3{
+        margin-left: 60px;
+        margin-right: 60px;
+  
+    }
