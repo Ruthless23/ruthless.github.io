@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;431&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(150, 3, 3);
+    width: 13vw;
+    font-size: 18px ;
+    font-style:bold;
+    font-family: 'Roboto Mono', monospace;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style-type: none;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.sidebar nav li a:hover{
+    color: black;
+}
+.main{
+    background-color: rgb(245, 220, 220);
+    width: 90vw;
+    height: 100vh;
+
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    width: 450px;
+    padding-top: 30px;
+    }
+.hello{
+    font-size: 35px;
+    font-family: 'Exo 2', sans-serif;
+
+}
+.name{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px;
+}
+.buttons
+{
+    margin: 3px;
+    cursor: pointer;
+    padding:10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4a1515;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+.buttons:hover{
+    background-color: white;
+    color: #4a1515;
+    }
