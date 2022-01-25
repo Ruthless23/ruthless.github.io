@@ -98,3 +98,47 @@
         margin-right: 60px;
   
     }
+    .contactform{
+        font-family: 'Exo 2', sans-serif;
+        padding-left:30px ;
+    }
+   
+    .contactform h1{
+        font-family: 'Roboto Mono', monospace;
+        text-align: center;
+        margin-top: 60px;
+
+    }
+    .contactform form div{
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .form-text{
+        font-size: 10px;
+        margin: 0 5px;
+        color: midnightblue;
+    }
+    .btn{
+        margin: 3px;
+        cursor: pointer;
+        padding:10px;
+        border-radius: 10px;
+        color: white;
+        background-color: #4a1515;
+        font-size: 20px;
+        font-family: 'Exo 2', sans-serif;
+        
+    }
+    .form-control{
+        margin-top: ;
+        width: 503px;
+        border-radius: 5px;
+        padding: 3px;
+    
+    }
+    .form-label{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
